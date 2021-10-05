@@ -1,0 +1,15 @@
+// format for inputting data
+// use // for comments
+// empty spaces/lines are ignored
+// serial and cases can be as long as you want
+// serial data must be a float and cases must be integers or they will automatically be truncated
+
+serial
+data1.float
+data2.float
+...
+
+cases
+data1_int
+data2_int
+...

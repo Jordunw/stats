@@ -16,14 +16,14 @@ bool readFromFile(std::string fileName, std::vector<int>& dailyCases, std::vecto
         {
             textData.push_back(line);
             static bool next = false;
-            // get rid of any empty spaces on the back
-           
+            
             // ignore first line
             if(line == "serial")
             {
                 continue;
             }
-
+            
+            // get rid of any empty spaces on the back && front
             while(textData.back().back() == ' ')
             {
                 textData.back().pop_back();
